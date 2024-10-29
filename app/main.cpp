@@ -6,4 +6,9 @@
 
 int main()
 {
+	int broj = 0;
+	std::cin >> broj;
+	std::cout << vsite::oop::v1::to_hex(broj) << std::endl;
+	std::cout << vsite::oop::v1::to_exp(broj) << std::endl;
+	vsite::oop::v1::mult_table(broj, std::cout);
 }
