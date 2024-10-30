@@ -33,7 +33,7 @@ namespace vsite::oop::v1
 					}
 					if (i == 0 && j != 0)
 					{
-						os << std::setw(4) << j;
+						os << std::format("{:>4}", j);
 					}
 					if (j == 0 && i != 0)
 					{
@@ -41,7 +41,7 @@ namespace vsite::oop::v1
 					}
 					if (j != 0 && i != 0)
 					{
-						os << std::setw(4) << i * j;
+						os << std::format("{:>4}", i * j);
 					}
 					
 				}
