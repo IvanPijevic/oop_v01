@@ -18,7 +18,7 @@ namespace vsite::oop::v1
 	{
 		if (broj == 0 || broj > 20)
 		{
-			os << "";
+			return;
 		}
 		else
 		{
